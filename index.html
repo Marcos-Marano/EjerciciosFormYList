@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Form-List</title>
+</head>
+<body>
+
+    <!-- Ejercicio 1 -->
+
+    <h1>Curriculum Vitae de Bruce Wayne</h1>
+    <h2>Datos personales</h2>
+    <ul>
+        <li>Nombre completo: <strong>Bruce Wayne</strong></li>
+        <li>Fecha de nacimiento: <strong>1/5/1939</strong></li>
+        <li>Lugar de nacimiento: <strong>Gotham City</strong></li>
+    </ul>
+    <h2>Formación académica</h2>
+    <ul>
+        <li>1956-1961: <strong>Universidad del Espantapájaros</strong></li>
+        <li>1952-1956: <strong>Instituto de Dos Caras</strong></li>
+        <li>1944-1952: <strong>Escuela Primaria del Joker</strong></li>
+    </ul>
+    <h2>Experiencia laboral</h2>
+    <ul>
+        <li>1975-1985: <strong>En el paro</strong></li>
+        <li>1965-1975: <strong>Cazavillanos y demás chusma</strong></li>
+        <li>1962-1965: <strong>Aprendiz de superhéroe</strong></li>
+    </ul>
+     
+     <!-- Ejercicio 2 -->
+     
+     <h1>Internet</h1>
+     <h2>Contenido</h2>
+     <ol>
+         <li>Principales protocolos</li>
+         <li>Formas de conectarse</li>
+     </ol>
+     <h2>1. Principales protocolos</h2>
+     <ul>
+        <li style="margin-left: 20px;">Transmisión de ficheros:</li>
+        <li type="CIRCLE" style="margin-left: 80px;">FTP</li>
+        <li style="margin: 10px 0 0 20px;">Correo electrónico:</li>
+        <li type="CIRCLE" style="margin-left: 80px;">IMAP</li>
+        <li type="CIRCLE" style="margin-left: 80px;">POP</li>
+        <li type="CIRCLE" style="margin-left: 80px;">SMTP</li>
+     </ul>
+     <h2>2. Formas de conectarse</h2>
+     <p>Red Telefónica Conmutada (RTC)</p>
+     <p style="margin-left: 30px;">La linea telefónica de toda la vida. Para acceder a Internet es necesario un módem.</p>
+     <p>Red Digital de Servicios Integrados (RDSI)</p>
+     <p style="margin-left: 30px;">Una linea telefónica especial. Para acceder a Internet es necesario un módem RDSI.</p>
+     <p>Linea de Abonado Digital Asimétrica (ADSL)</p>
+     <p style="margin-left: 30px;">Se basa en la conversión de una linea RTC en una linea de alta velocidad. Para acceder a internet es necesario un módem ADSL.</p>
+     <p>Fibra Óptica</p>
+     <p style="margin-left: 30px;">Una linea de fibra óptica. Normalmente la fibra óptica no llega hasta el usuario final, por lo que el término más apropiado es Fibra hibrida coaxial.</p>
+
+      <!-- Ejercicio 3 -->
+       
+      <h1>Formulario de registro</h1>
+       <div>
+           <label for="name">Nombre:</label>
+      <input type="text" id="name" name="user_name">
+       </div>  
+      <div style="margin-top: 15px;">
+      <label for="name">Apellido:</label>
+      <input type="text" id="apellido" name="user_apellido">
+      </div>
+      <div style="margin-top: 15px;">
+        <label for="name">Sexo:</label>
+        <input type="radio">hombre
+        <input type="radio">mujer
+      </div>
+      <div style="margin-top: 15px;">
+        <label for="mail">Correo:</label>
+        <input type="mail" id="mail" name="user_mail">
+      </div>
+      <div style="margin-top: 15px;">
+          <input type="radio"> Deseo recibir información sobre novedades y ofertas.
+      </div>
+      <div style="margin-top: 15px;">
+        <input type="radio">  Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos.
+      </div>
+
+      <button style="margin-top: 15px;" >Enviar</button>
+
+      <!-- Ejercicio 4 -->
+      <h1>Formulario de registro</h1>
+       <div>
+           <label for="name">Nombre:</label>
+      <input type="text" id="name" name="user_name">
+       </div>  
+      <div style="margin-top: 15px;">
+      <label for="name">Apellido:</label>
+      <input type="text" id="apellido" name="user_apellido">
+      </div>
+      <div style="margin-top: 15px;">
+        <label for="name">Sexo:</label>
+        <input type="radio">hombre
+        <input type="radio">mujer
+      </div>
+      <div style="margin-top: 15px;">
+        <label for="mail">Correo:</label>
+        <input type="mail" id="mail" name="user_mail">
+      </div>
+      <div style="margin-top: 15px;">
+          <label for="select">Población:</label>
+          <select name="select" id="select">
+             <option value="#">Buenos Aires</option>
+          <option value="#">Cordoba</option>
+          <option value="#">Salta</option>
+          </select>
+      </div>
+      <div style="margin-top: 15px;">
+        <label for="mensaje">Descripción:</label>
+        <textarea name="mensaje" id="mensaje" cols="50" rows="10"></textarea>
+      </div>
+      <div style="margin-top: 15px;">
+          <input type="radio"> Deseo recibir información sobre novedades y ofertas.
+      </div>
+      <div style="margin-top: 15px;">
+        <input type="radio">  Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos.
+      </div>
+
+      <button style="margin-top: 15px;" >Enviar</button>
+</body>
+</html>
+
